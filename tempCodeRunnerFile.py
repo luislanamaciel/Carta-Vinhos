@@ -41,7 +41,7 @@ webrtc_streamer(key="leitor", video_processor_factory=LeitorCodigo)
 
 # -----------------------------
 # Campo de entrada
-###st.subheader("Digite ou leia o código de barras")
+st.subheader("Digite ou leia o código de barras")
 codigo = st.text_input("Código do vinho:", key="codigo")
 
 # Botão de limpar
